@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Output.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Auxiliary_Logger.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BaseClass.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Connection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileConnection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDevice.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Forwarder.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForwarderController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FunctionGenerator.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LamportClock.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_RedundantTransmission.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Serial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SerialPort.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Shared.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SharedObject.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Sound.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Text.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\vrpn_Configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Auxiliary_Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BaseClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ConnectionPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForwarderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Forwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FunctionGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LamportClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_MainloopContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_MainloopObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_RedundantTransmission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SendTextMessageStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SerialPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SharedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DAC25C3-4E87-3516-8E48-850C64C91D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBE6A493-BECE-34F8-A556-B55BFC9F422C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
