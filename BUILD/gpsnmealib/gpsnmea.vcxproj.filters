@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\latLonCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\nmeaParser.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\typedCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\utmCoord.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\nmeaParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\utmCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\latLonCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\typedCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\gpsnmealib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DAC25C3-4E87-3516-8E48-850C64C91D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBE6A493-BECE-34F8-A556-B55BFC9F422C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

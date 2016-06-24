@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7A76330C-9B8B-3727-9417-3BCEB957F9BD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vrpn_phantom</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vrpn_phantom.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vrpn_phantomd</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vrpn_phantom.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vrpn_phantom</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vrpn_phantom.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vrpn_phantom</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vrpn_phantom.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vrpn_phantom</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE="BUILD/vrpn_Configure.h";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE=\"BUILD/vrpn_Configure.h\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE="BUILD/vrpn_Configure.h";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE=\"BUILD/vrpn_Configure.h\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE="BUILD/vrpn_Configure.h";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE=\"BUILD/vrpn_Configure.h\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE="BUILD/vrpn_Configure.h";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0600;NTDDI_VERSION=0x06000000;VRPN_USING_CMAKE=\"BUILD/vrpn_Configure.h\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD;D:\Documents and Settings\MAP\VincentA\vrpn_master;D:\Documents and Settings\MAP\VincentA\vrpn_master\atmellib;D:\Documents and Settings\MAP\VincentA\vrpn_master\quat;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi;C:\Program Files (x86)\SensAble\3DTouch\include;C:\Program Files (x86)\SensAble\3DTouch\utilities\include;D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\timecode_generator_server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents and Settings/MAP/VincentA/vrpn_master" "-BD:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD" --check-stamp-file "D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn.cfg;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents and Settings/MAP/VincentA/vrpn_master" "-BD:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD" --check-stamp-file "D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn.cfg;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents and Settings/MAP/VincentA/vrpn_master" "-BD:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD" --check-stamp-file "D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn.cfg;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/Documents and Settings/MAP/VincentA/vrpn_master" "-BD:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD" --check-stamp-file "D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Documents and Settings/MAP/VincentA/vrpn_master/server_src/CMakeLists.txt;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn.cfg;D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\server_src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects\InstantBuzzEffect.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\buzzForceField.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\constraint.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\forcefield.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghost.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\plane.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\texture_plane.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\trimesh.h" />
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Phantom.h" />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects\InstantBuzzEffect.cpp"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\buzzForceField.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\constraint.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\forcefield.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\plane.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\texture_plane.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\trimesh.C"  />
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Phantom.C"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/ZERO_CHECK.vcxproj">
+      <Project>3E86AC42-0912-37C6-9872-28DDA5CC0E9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/gpsnmealib/gpsnmea.vcxproj">
+      <Project>5A2F23AA-747E-37C1-A195-B47CB4ADEE9C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/OpenHapticsNestedTargets/openhaptics_hdu_nested_target.vcxproj">
+      <Project>1B5C4686-6651-3215-A259-BD3B4885D6E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/OpenHapticsNestedTargets/openhaptics_hlu_nested_target.vcxproj">
+      <Project>F442C57B-633A-35C4-A1D9-8AAF445D558E</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/quat/quat.vcxproj">
+      <Project>178D82E4-7993-349E-B574-1BFA6CABBEAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Documents and Settings/MAP/VincentA/vrpn_master/BUILD/vrpnserver.vcxproj">
+      <Project>7B5813B5-9483-389E-9F7E-3A2B84A915C1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

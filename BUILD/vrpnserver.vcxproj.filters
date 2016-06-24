@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Output.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Auxiliary_Logger.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BaseClass.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Connection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileConnection.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDevice.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Forwarder.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForwarderController.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FunctionGenerator.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LamportClock.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mutex.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_RedundantTransmission.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Serial.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SerialPort.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Shared.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SharedObject.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Sound.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Text.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3DConnexion.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3DMicroscribe.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3Space.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_5DT16.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ADBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_5dt.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_5dtUSB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Radamec_SPI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_USDigital_A2.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Atmel.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BiosciencesTools.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button_NI_DIO24.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button_USB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_CerealBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_CHProducts_Controller_Raw.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Contour.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DevInput.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DirectXFFJoystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DirectXRumblePad.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DreamCheeky.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dyna.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event_Mouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Flock.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Flock_Parallel.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDeviceServer.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Freespace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Futaba.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_GlobalHapticsOrb.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Griffin.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_HumanInterface.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_IDEA.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager_Stream_Buffer.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ImmersionBox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_inertiamouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_JoyFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Joylin.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Joywin32.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Keyboard.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LUDL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Logitech_Controller_Raw.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Magellan.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Microsoft_Controller_Raw.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_NationalInstruments.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Nidaq.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_nikon_controls.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_OmegaTemperature.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser_Analog.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser_Tek4662.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_raw_sgibox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Retrolink.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Saitek_Controller_Raw.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_sgibox.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Spaceball.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tng3.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_3DMouse.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_AnalogFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_ButtonFly.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Crossbow.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_DTrack.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Fastrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Filter.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_GameTrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_GPS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_isense.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Isotrak.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_JsonNet.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Liberty.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_MotionNode.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_NDI_Polaris.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_NovintFalcon.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_OSVRHackerDevKit.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_PDI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_PhaseSpace.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_RazerHydra.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_SpacePoint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Wintracker.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_TrivisioColibri.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_WiimoteHead.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_zSight.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_ViewPoint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_UNC_Joystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_VPJoystick.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Wanda.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_WiiMote.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_XInputGamepad.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Xkeys.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_LibertyHS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_YEI_3Space.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Zaber.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Generic_server_object.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Local_HIDAPI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\hidapi\hidapi\hidapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\assertions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\autolink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\include\json\writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_internalarray.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_internalmap.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_batchallocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\submodules\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\BUILD\vrpn_Configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Auxiliary_Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BaseClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ConnectionPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FileController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForwarderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Forwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_FunctionGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LamportClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_MainloopContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_MainloopObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_RedundantTransmission.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SendTextMessageStreamProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SerialPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_SharedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3DConnexion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3DMicroscribe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_3Space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_5DT16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ADBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_5dt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_5dtUSB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_Radamec_SPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Analog_USDigital_A2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Atmel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_BiosciencesTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button_NI_DIO24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Button_USB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_CerealBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_CHProducts_Controller_Raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Contour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DevInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DirectXFFJoystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DirectXRumblePad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_DreamCheeky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Dyna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Event_Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Flock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Flock_Parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ForceDeviceServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Freespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Futaba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_GlobalHapticsOrb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Griffin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_HashST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_HumanInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_IDEA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Imager_Stream_Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_ImmersionBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_inertiamouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_JoyFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Joylin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Joywin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Logitech_Controller_Raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_LUDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Magellan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_MessageMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Microsoft_Controller_Raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_NationalInstruments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Nidaq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_nikon_controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_OmegaTemperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_OneEuroFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser_Analog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Poser_Tek4662.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_raw_sgibox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Retrolink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Saitek_Controller_Raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_sgibox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Spaceball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tng3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_3DMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_AnalogFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_ButtonFly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Crossbow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_DTrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Fastrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_GameTrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_GPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_isense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Isotrak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_JsonNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Liberty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_MotionNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_NDI_Polaris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_NovintFalcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_OSVRHackerDevKit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_PDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_PhaseSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_RazerHydra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_SpacePoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_Wintracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_TrivisioColibri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_WiimoteHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_zSight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_ViewPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_UNC_Joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_VPJoystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Wanda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_WiiMote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_XInputGamepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Xkeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Tracker_LibertyHS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_YEI_3Space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\vrpn_Zaber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Generic_server_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DAC25C3-4E87-3516-8E48-850C64C91D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBE6A493-BECE-34F8-A556-B55BFC9F422C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

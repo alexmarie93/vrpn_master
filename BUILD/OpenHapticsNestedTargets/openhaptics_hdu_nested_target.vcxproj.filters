@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hdu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduDecompose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduHapticDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduLineSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduQuaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduBoundBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduGenericMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hdu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduHapticDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduLineSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduQuaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\include\HDU\hduVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\SensAble\3DTouch\utilities\src\HDU\src\hduDecompose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\cmake\nested_targets\OpenHaptics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DAC25C3-4E87-3516-8E48-850C64C91D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBE6A493-BECE-34F8-A556-B55BFC9F422C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

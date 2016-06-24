@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects\InstantBuzzEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\buzzForceField.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\constraint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\forcefield.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\texture_plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\trimesh.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Phantom.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghostEffects\InstantBuzzEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\buzzForceField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\forcefield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\ghost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\texture_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\trimesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\vrpn_Phantom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents and Settings\MAP\VincentA\vrpn_master\server_src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DAC25C3-4E87-3516-8E48-850C64C91D0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BBE6A493-BECE-34F8-A556-B55BFC9F422C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
